@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title> @ViewBag.Title</title> 
+    <meta content="" name="Kenang Studios">
+
+    <!-- Favicons -->
+    <link href="~/assets/images/favicon.png" rel="icon">
+    <link href="~/assets/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="~/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="~/assets/stylesheets/font-awesome.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="~/assets/stylesheets/styles.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="preloader"></div>
+
+    <section id="topbar" class="topbar d-flex align-items-center">
+        <div class="container d-flex justify-content-end">
+
+            <div class="d-none d-md-flex align-items-center">
+                <div class="contact-info d-flex align-items-center">
+                    <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@kenang.co.za">contact@kenang.co.za</a></i>
+                    <i class="bi bi-phone d-flex align-items-center"><span>(+27) 067 939 8796</span></i>
+                </div>
+                <span> | </span>
+                <div class="social-links d-none d-md-flex align-items-center">
+                    <a href="https://twitter.com/elshamamokoena" class="twitter"><i class="bi bi-twitter"></i></a>
+                    @*<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>*@
+                    <a href="https://instagram.com/elshamathedev" class="instagram"><i class="bi bi-instagram"></i></a>
+                    @*<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>*@
+                </div>
+            </div>
+        </div>
+    </section><!-- End Top Bar -->
+
+    <header id="header" class="header d-flex align-items-center">
+        <div class="container container-xl d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <h1>Kenang<span>.</span></h1>
+            </a>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Our Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a asp-action="Index" asp-controller="Service" >Our Services</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+@*                    <li class="dropdown">
+                        <a href="#"><span>All Pages</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                        <ul>
+                            <li><a href="packages.html">Pricing</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="project-details.html">Projects Details</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Signup</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blogs.html">Blogs</a></li>
+                            <li><a href="blogs-details.html">Blog Details</a></li>
+                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                            <li><a href="terms.html">Terms & Conditions</a></li>
+                            <li><a href="policy.html">Privacy Policy</a></li>
+                            <li><a href="sample.html">Sample Page</a></li>
+                        </ul>
+                    </li>*@
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav><!-- .navbar -->
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        </div>
+    </header>
+    <!-- End Header -->
+
+@RenderBody()
+    
+    <!-- - - - - - - - -  Footer - - - - - - - -  -->
+    <footer id="footer" class="footer-section">
+        <div class="container">
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html" class="logo d-flex align-items-center">
+                                    <h1>Kenang<span>.</span></h1>
+                                </a>
+                            </div>
+                            <div class="footer-text">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                    elit,Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fa fa-facebook facebook-bg"></i></a>
+                                <a href="#"><i class="fa fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fa fa-google google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                        <div class="service-widget footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Services</h3>
+                            </div>
+                            <ul class="list">
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">App Developemnt</a></li>
+                                <li><a href="#">Cloud Services</a></li>
+                                <li><a href="#">Domain adn Hosting</a></li>
+                                <li><a href="#">Seo Optimization</a></li>
+                                <li><a href="#">Social Media</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                        <div class="service-widget footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Information</h3>
+                            </div>
+                            <ul class="list">
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="register.html">Signup</a></li>
+                                <li><a href="faq.html">FAQs</a></li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="blogs.html">Blogs</a></li>
+                                <li><a href="blogs-details.html">Blog Details</a></li>
+                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                <li><a href="terms.html">Terms & Conditions</a></li>
+                                <li><a href="policy.html">Privacy Policy</a></li>
+                                <li><a href="sample.html">Sample Page</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="contact-widget footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Contacts</h3>
+                            </div>
+                            <div class="footer-text">
+                                <p><i class="bi bi-geo-alt-fill mr-15"></i> 101 West Town , PBO 12345, United States</p>
+                                <p><i class="bi bi-telephone-inbound-fill mr-15"></i> +1 1234 56 789</p>
+                                <p><i class="bi bi-envelope-fill mr-15"></i> contact@example.com</p>
+                            </div>
+                        </div>
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Newsletter</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fa fa-telegram"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-left text-lg-left">
+                        <div class="copyright-text">
+                            <p>Olivia<span>.</span> © 2022 - Designed by Zr Themes.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block">
+                        <div class="footer-menu text-right">
+                            <ul>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+
+    <!-- Vendor JS Files -->
+    <script src="~/assets/javascripts/jquery.min.js"></script>
+    <script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/vendor/aos/aos.js"></script>
+    <script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/assets/javascripts/plugins.js"></script>
+    <script src="~/assets/javascripts/validator.min.js"></script>
+    <script src="~/assets/javascripts/contactform.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/assets/javascripts/main.js"></script>
+
+</body>
+
+</html>
