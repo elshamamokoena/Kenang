@@ -1,0 +1,210 @@
+@font-face {
+  font-family: icomoon;
+  src: url(../fonts/icomoon.eot?4vca3n);
+  src: url(../fonts/icomoon.eot?4vca3n#iefix) format("embedded-opentype"), url(../fonts/icomoon.ttf?4vca3n) format("truetype"), url(../fonts/icomoon.woff?4vca3n) format("woff"), url(../fonts/icomoon.svg?4vca3n#icomoon) format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+  font-family: icomoon !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+.icon-arrow-down:before {
+content: "\e93e";
+}
+.icon-quote:before {
+content: "\e93d";
+}
+.icon-arrow-left:before {
+content: "\e938";
+}
+.icon-arrow-left2:before {
+content: "\e939";
+}
+.icon-arrow-right:before {
+content: "\e93a";
+}
+.icon-arrow-right2:before {
+content: "\e93b";
+}
+.icon-download:before {
+content: "\e93c";
+}
+.icon-bag:before {
+content: "\e900";
+}
+.icon-battery:before {
+content: "\e901";
+}
+.icon-biodiesel:before {
+content: "\e902";
+}
+.icon-biofuel:before {
+content: "\e903";
+}
+.icon-biogas:before {
+content: "\e904";
+}
+.icon-biosphere:before {
+content: "\e905";
+}
+.icon-biosphere2:before {
+content: "\e906";
+}
+.icon-biosphere3:before {
+content: "\e907";
+}
+.icon-car-battery:before {
+content: "\e908";
+}
+.icon-cart:before {
+content: "\e909";
+}
+.icon-clock:before {
+content: "\e90a";
+}
+.icon-eco-factory:before {
+content: "\e90b";
+}
+.icon-eco-house:before {
+content: "\e90c";
+}
+.icon-electric-car:before {
+content: "\e90d";
+}
+.icon-electric-car2:before {
+content: "\e90e";
+}
+.icon-electric-charge:before {
+content: "\e90f";
+}
+.icon-energy:before {
+content: "\e910";
+}
+.icon-energy2:before {
+content: "\e911";
+}
+.icon-faucet:before {
+content: "\e912";
+}
+.icon-flask:before {
+content: "\e913";
+}
+.icon-green-energy:before {
+content: "\e914";
+}
+.icon-green-energy2:before {
+content: "\e915";
+}
+.icon-green-energy3:before {
+content: "\e916";
+}
+.icon-green-energy4:before {
+content: "\e917";
+}
+.icon-green-energy5:before {
+content: "\e918";
+}
+.icon-green-energy6:before {
+content: "\e919";
+}
+.icon-green-energy7:before {
+content: "\e91a";
+}
+.icon-green-energy8:before {
+content: "\e91b";
+}
+.icon-green-energy9:before {
+content: "\e91c";
+}
+.icon-green-energy10:before {
+content: "\e91d";
+}
+.icon-green-energy11:before {
+content: "\e91e";
+}
+.icon-hydrogen:before {
+content: "\e91f";
+}
+.icon-hydro-power:before {
+content: "\e920";
+}
+.icon-hydro-power2:before {
+content: "\e921";
+}
+.icon-hydro-power3:before {
+content: "\e922";
+}
+.icon-light-bulb:before {
+content: "\e923";
+}
+.icon-lightning-bolt:before {
+content: "\e924";
+}
+.icon-location:before {
+content: "\e925";
+}
+.icon-magnet:before {
+content: "\e926";
+}
+.icon-mail:before {
+content: "\e927";
+}
+.icon-nuclear-power:before {
+content: "\e928";
+}
+.icon-nuclear:before {
+content: "\e929";
+}
+.icon-phone:before {
+content: "\e92a";
+}
+.icon-renewable-energy:before {
+content: "\e92b";
+}
+.icon-save-energy:before {
+content: "\e92c";
+}
+.icon-search:before {
+content: "\e92d";
+}
+.icon-socket:before {
+content: "\e92e";
+}
+.icon-solar-energy:before {
+content: "\e92f";
+}
+.icon-solar-panel:before {
+content: "\e930";
+}
+.icon-trash:before {
+content: "\e931";
+}
+.icon-truck:before {
+content: "\e932";
+}
+.icon-tube:before {
+content: "\e933";
+}
+.icon-wind-turbine:before {
+content: "\e934";
+}
+.icon-windmill:before {
+content: "\e935";
+}
+.icon-wind-socket:before {
+content: "\e936";
+}
+.icon-wireless-charger:before {
+content: "\e937";
+}

@@ -1,0 +1,142 @@
+﻿        <!-- Page title area  -->
+<section class="page-title-area breadcrumb__spacing" data-background="assets/img/bg/title-bg.jpg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-9">
+                <div class="page-title-wrapper text-center">
+                    <h3 class="page-title mb-25">Contact Us</h3>
+                    <div class="breadcrumb__menu">
+                        <nav aria-label="Breadcrumbs" class="breadcrumb__trail breadcrumbs">
+                            <ul class="trail-items">
+                                <li class="trail-item trail-begin"><a href="index.html"><span>Home</span></a></li>
+                                <li class="trail-item trail-end"><span>Contact Us</span></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Page title area end -->
+<section class="contact__top-area pt-100 pb-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 md-mb-30">
+                <div class="contact__info-group">
+                    <div class="contact__info">
+                        <div class="contact__info-icon"><i class="baseicon-location"></i></div>
+                        <div class="contact__info-content">
+                            <span class="contact__info-title">Office Address</span>
+                            <div class="contact__info-txt"><p>7253 Alva Flats, Suite 272, 36401,<br> New Isai, Michigan, USA</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 md-mb-30">
+                <div class="contact__info-group">
+                    <div class="contact__info">
+                        <div class="contact__info-icon"><i class="baseicon-call"></i></div>
+                        <div class="contact__info-content">
+                            <span class="contact__info-title">Contact Us</span>
+                            <div class="contact__info-txt">
+                                <a href="mailto:info@example.com">info@example.com</a><br><a href="tel:+1-(202)-555-0918">+1-(202)-555-0918</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="contact__info-group">
+                    <div class="contact__info">
+                        <div class="contact__info-icon"><i class="baseicon-clock"></i></div>
+                        <div class="contact__info-content">
+                            <span class="contact__info-title">Working Hours</span>
+                            <div class="contact__info-txt">
+                                <p>Weekdays 10:00 - 19:00</p>
+                                <p>Weekend 10:00 - 14:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- contact area  -->
+<section class="contact-area grey-bg-2 pt-120 md-pt-60 pb-110 md-pb-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12">
+                <div class="contact-form mb-60 mx-auto">
+                    <div class="row justify-content-center mb-35 md-mb-20">
+                        <div class="col-lg-8">
+                            <div class="section-title text-center">
+                                <span>Have Questions?</span>
+                                <h3 class="title">Needs Help? Let’s Get in Touch</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="php/form-process.php" name="contactus" method="post" id="contact-form">
+                        <div class="row">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 form-group">
+                                <div class="input__field mt-20">
+                                    <input type="text" name="name" placeholder="Your Name">
+                                    <i class="bx bx-user"></i>
+                                </div>
+                                <span class="error_msg" id="name_error"></span>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 form-group">
+                                <div class="input__field mt-20">
+                                    <input type="email" name="mail" placeholder="Email">
+                                    <i class="bx bx-envelope"></i>
+                                </div>
+                                <span class="error_msg" id="email_error"></span>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 form-group">
+                                <div class="input__field mt-20">
+                                    <input type="tel" name="phone" pattern="[0-9\-]*" placeholder="Phone Number">
+                                    <i class="bx bx-phone"></i>
+                                </div>
+                                <span class="error_msg" id="phone_error"></span>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 form-group">
+                                <div class="input__field select mt-20">
+                                    <select name="subject">
+                                        <option value="">Select Service</option>
+                                        <option value="web design">Web Design</option>
+                                        <option value="graphic">Graphic</option>
+                                        <option value="app development">App Development</option>
+                                    </select>
+                                </div>
+                                <span class="error_msg" id="subject_error"></span>
+                            </div>
+                            <div class="col-xxl-12 col-xl-12 col-lg-12 form-group">
+                                <div class="input__field textarea mt-20">
+                                    <textarea rows="6" cols="8" placeholder="Write Massage" name="message"></textarea>
+                                    <i class="bx bx-pencil"></i>
+                                </div>
+                                <span class="error_msg" id="message_error"></span>
+                            </div>
+                            <div class="col-xxl-12 col-xl-12 form-group">
+                                <div class="mailsendbtn mb-0 w-100 mt-20">
+                                    <button type="submit" name="contactus" class="thm-btn thm-btn__secondary thm-btn__block">Submit</button>
+                                    <div class="loading"><img class="img-fluid" src="assets/img/ajax-loader.gif" alt="loading"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="response-msg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact area end -->
+<!--Google Map Start-->
+<section class="google-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+            class="google__map" allowfullscreen></iframe>
+</section>
+<!--Google Map End-->

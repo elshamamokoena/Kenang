@@ -1,231 +1,387 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title> @ViewBag.Title</title> 
-    <meta content="" name="Kenang Studios">
-
-    <!-- Favicons -->
-    <link href="~/assets/images/favicon.png" rel="icon">
-    <link href="~/assets/images/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-          rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-    <!-- Vendor CSS Files -->
-    <link href="~/assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="~/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="~/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="~/assets/stylesheets/font-awesome.min.css" rel="stylesheet">
-    <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Main CSS File -->
-    <link href="~/assets/stylesheets/styles.css" rel="stylesheet">
-
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="Kenang - Software Development Studios">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/baseicon.css">
+    <link rel="stylesheet" href="assets/css/uicon.css">
+    <link rel="stylesheet" href="assets/css/webicon.min.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-    <div id="preloader"></div>
-
-    <section id="topbar" class="topbar d-flex align-items-center">
-        <div class="container d-flex justify-content-end">
-
-            <div class="d-none d-md-flex align-items-center">
-                <div class="contact-info d-flex align-items-center">
-                    <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@kenang.co.za">contact@kenang.co.za</a></i>
-                    <i class="bi bi-phone d-flex align-items-center"><span>(+27) 067 939 8796</span></i>
-                </div>
-                <span> | </span>
-                <div class="social-links d-none d-md-flex align-items-center">
-                    <a href="https://twitter.com/elshamamokoena" class="twitter"><i class="bi bi-twitter"></i></a>
-                    @*<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>*@
-                    <a href="https://instagram.com/elshamathedev" class="instagram"><i class="bi bi-instagram"></i></a>
-                    @*<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>*@
+    <!-- Preloader start -->
+    <div class="preloader_bg"></div>
+    <div id="preLoader">
+        <div id="preloader__process">
+            <div class="loader-pos loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Preloader end -->
+    <!-- header area start  -->
+    <header class="header-wrap">
+        <!-- header top -->
+        <div class="top__bar-four green-bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 d-xl-block d-none">
+                        <div class="left">
+                            <div class="mail">
+                                <a href="mailto:info@example.com"><i class="baseicon-email"></i>info@example.com</a>
+                            </div>
+                            <div class="opening__time">
+                                <p><i class="baseicon-clock"></i>Opening Hours: 10:00 - 19:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-xl-block d-none">
+                        <div class="right">
+                            <ul class="top__nav">
+                                <li><a asp-action="Index" asp-controller="About">About</a></li>
+                                @*<li hidden><a href="javascript:void(0)">Blog</a></li>*@
+                                <li><a asp-action="Faq" asp-controller="Home">Faq</a></li>
+                            </ul>
+                            <ul class="top__social">
+                                <li class="title">Follow Us:</li>
+                                <li><a href="javascript:void(0)"><i class="neticon-facebook"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="neticon-twitter"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="neticon-instagram"></i></a></li>
+                                <li><a class="mr--0" href="javascript:void(0)"><i class="neticon-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section><!-- End Top Bar -->
+        <!-- header Navigation -->
+        <div class="site-navigation">
+            <div class="container-fluid">
+                <div class="main__menu">
+                    <div class="site-branding">
+                        <a href="index.html" class="brand-logo"><img src="assets/img/logo/logo.png" alt="Site Logo"></a>
+                    </div>
+                    <div class="nav-menu">
+                        <!-- Navbar Close -->
+                        <div class="navbar-close"><i class="ti-close"></i></div>
+                        <!-- Nav Search -->
+                        <div class="nav-search">
+                            <form>
+                                <div class="form_group">
+                                    <input type="email" class="form_control" placeholder="Search Here" name="email" required>
+                                    <button class="search-btn"><i class="uicon-magnifying-glass"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Main Menu -->
+                        <nav class="main-menu">
+                            <ul>
+                                <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                                <li><a asp-action="Index" asp-controller="About">Our Story</a></li>
+                                @*<li><a asp-action="Index" asp-controller="Service">Services</a></li>*@
+                                <li class="dropdwn">
+                                <a href="javascript:void(0)">Services</a>
+                                <ul class="sub-menu">
+                                <li><a href="team.html">Ecommerce Development</a></li>
+                                <li><a href="team-details.html">UI/UX Design</a></li>
+                                <li class="dropdwn subMenu">
+                                <a href="javascript:void(0)">App Development</a>
+                                <ul class="sub-menu">
+                                <li><a href="javascript:void(0)">Web App Development</a></li>
+                                <li><a href="javascript:void(0)">Mobile App Development</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="pricing.html">Custom API Integrations</a></li>
+                                <li><a href="faq.html">Support & Maintenance</a></li>
+                                <li><a href="faq.html">Support & Maintenance</a></li>
 
-    <header id="header" class="header d-flex align-items-center">
-        <div class="container container-xl d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
-                <h1>Kenang<span>.</span></h1>
-            </a>
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Our Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a asp-action="Index" asp-controller="Service" >Our Services</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="faq.html">FAQs</a></li>
-@*                    <li class="dropdown">
-                        <a href="#"><span>All Pages</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                                </ul>
+                                </li>
+                                <li><a asp-action="Index" asp-controller="Project">Our Work</a></li>
+                                <li><a asp-action="Index" asp-controller="Contact">Contact</a></li>
+
+
+
+                               @* <li class="dropdwn">
+                                    <a asp-action="Index" asp-controller="Service">Services</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="service-details.html">Service Details</a></li>
+                                    </ul>
+                                </li>*@
+                      @*          <li class="dropdwn">
+                                    <a href="javascript:void(0)">Projects</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="projects.html">Projects</a></li>
+                                        <li><a href="project-details.html">Project Details</a></li>
+                                    </ul>
+                                </li>*@
+                     @*           <li class="dropdwn">
+                                    <a href="javascript:void(0)">Pages</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="team.html">Our Team</a></li>
+                                        <li><a href="team-details.html">Team Details</a></li>
+                                        <li class="dropdwn subMenu">
+                                            <a href="javascript:void(0)">Category</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="javascript:void(0)">Subcat 01</a></li>
+                                                <li><a href="javascript:void(0)">Subcat 02</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="pricing.html">Pricing</a></li>
+                                        <li><a href="faq.html">FAQ</a></li>
+                                    </ul>
+                                </li>*@
+                      @*          <li class="dropdwn">
+                                    <a href="javascript:void(0)">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">Blog Listing</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>*@
+                                @*<li><a href="contact.html">Contact</a></li>*@
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header-right-nav">
                         <ul>
-                            <li><a href="packages.html">Pricing</a></li>
-                            <li><a href="projects.html">Projects</a></li>
-                            <li><a href="project-details.html">Projects Details</a></li>
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="register.html">Signup</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="blogs.html">Blogs</a></li>
-                            <li><a href="blogs-details.html">Blog Details</a></li>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                            <li><a href="terms.html">Terms & Conditions</a></li>
-                            <li><a href="policy.html">Privacy Policy</a></li>
-                            <li><a href="sample.html">Sample Page</a></li>
+                            <li>
+                                <a href="tel:+12025550918" class="header__phone">
+                                    <span class="header__phone__icon">
+                                        <i class="uicon-phone-ringing"></i>
+                                    </span>
+                                    <span class="header__phone__text">
+                                        <strong>+1-(202)-555-0918</strong>
+                                        Call to Our Experts
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="search-item"><a href="javascript:void(0)" data-toggle="modal" class="search-toggler"><i class="uicon-magnifying-glass"></i></a></li>
+                            <li><button class="menu__toggle-btn sidebar-icon open"><span class="line"></span><span class="line"></span><span class="line"></span></button></li>
+                            <li class="navbar-toggle-btn">
+                                <div class="navbar-toggler">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </li>
                         </ul>
-                    </li>*@
-                    <li><a href="blogs.html">Blogs</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav><!-- .navbar -->
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    <!-- End Header -->
+    <!-- header area end  -->
+    <!-- Search Popup Start -->
+    <div class="popup__search">
+        <button class="close-search"><span class="ti-close"></span></button>
+        <form action="#" class="popup__content">
+            <div class="form-group">
+                <input type="search" name="search-field" placeholder="Search Here..." required>
+                <button type="submit"><i class="uicon-magnifying-glass"></i></button>
+            </div>
+        </form>
+    </div>
+    <!-- Search Popup end -->
+    <main>
+        <!-- Sidebar Area Start Here  -->
+        <div id="sidebar_box">
+            <div class="sidebar-box">
+                <div class="inner__content">
+                    <div class="sidebar-info">
+                        <a href="index.html" class="logo"><img class="img-fluid" src="assets/img/logo/logo.png" alt="Logo"></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur eum veritatis autem maiores, blanditiis reiciendis beatae. Corporis, fugiat debitis!</p>
+                    </div>
+                    <div class="sidebar-contact__info mt-25 mb-25">
+                        <h4>Contact Info</h4>
+                        <div class="contact-item">
+                            <i class="baseicon-phone"></i>
+                            <div class="info__text">
+                                <h4>Call Us</h4>
+                                <a href="tel:+1202-555-0918">+1202-555-0918</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="baseicon-email"></i>
+                            <div class="info__text">
+                                <h4>Email Us</h4>
+                                <a href="mailto:info@example.com">info@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="baseicon-location"></i>
+                            <div class="info__text">
+                                <h4>Office Address</h4>
+                                <div class="info__text">
+                                    <p>7253 Alva Flats, Michigan, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="baseicon-clock"></i>
+                            <div class="info__text">
+                                <h4>Opening Hours</h4>
+                                <div class="info__text">
+                                    <p>10:00 - 19:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-social__wrap">
+                        <h4>Follow Us</h4>
+                        <ul class="sidebar-social__icons">
+                            <li><a href="javascript:void(0)"><i class="neticon-facebook"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="neticon-twitter"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="neticon-instagram"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="neticon-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <span class="sidebar-box__icon close"><i class="ti-close"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar Area end  -->
+        <div class="body-overlay"></div>
 
-@RenderBody()
-    
-    <!-- - - - - - - - -  Footer - - - - - - - -  -->
-    <footer id="footer" class="footer-section">
-        <div class="container">
-            <div class="footer-content pt-5 pb-5">
+
+ @RenderBody()
+
+
+    </main>
+    <!-- Footer area start  -->
+    <footer class="site__footer">
+        <div class="footer__widget-area">
+            <div class="container">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html" class="logo d-flex align-items-center">
-                                    <h1>Kenang<span>.</span></h1>
-                                </a>
+                    <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="footer__widget">
+                            <div class="footer-logo mb-30">
+                                <a href="index.html"><img src="assets/img/logo/logo-white.png" alt="logo"></a>
                             </div>
-                            <div class="footer-text">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                    elit,Lorem ipsum dolor sit amet.
-                                </p>
-                            </div>
-                            <div class="footer-social-icon">
-                                <span>Follow us</span>
-                                <a href="#"><i class="fa fa-facebook facebook-bg"></i></a>
-                                <a href="#"><i class="fa fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fa fa-google google-bg"></i></a>
+                            <div class="textwidget">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi assumenda consequatur eligendi? Illum, reiciendis accusantium?</p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
-                        <div class="service-widget footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Services</h3>
-                            </div>
-                            <ul class="list">
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">App Developemnt</a></li>
-                                <li><a href="#">Cloud Services</a></li>
-                                <li><a href="#">Domain adn Hosting</a></li>
-                                <li><a href="#">Seo Optimization</a></li>
-                                <li><a href="#">Social Media</a></li>
+                    <div class="col-lg-3 col-md-12 col-sm-12 pl-45 md-pl-15 md-mb-30">
+                        <div class="footer__widget">
+                            <h3 class="widget__title">IT Services</h3>
+                            <ul class="footer__link">
+                                <li><a href="javascript:void(0)">Software Development</a></li>
+                                <li><a href="javascript:void(0)">Web Development</a></li>
+                                <li><a href="javascript:void(0)">Analytic Solutions</a></li>
+                                <li><a href="javascript:void(0)">Cloud and DevOps</a></li>
+                                <li><a href="javascript:void(0)">Product Design</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
-                        <div class="service-widget footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Information</h3>
-                            </div>
-                            <ul class="list">
-                                <li><a href="login.html">Login</a></li>
-                                <li><a href="register.html">Signup</a></li>
-                                <li><a href="faq.html">FAQs</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="blogs.html">Blogs</a></li>
-                                <li><a href="blogs-details.html">Blog Details</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                                <li><a href="terms.html">Terms & Conditions</a></li>
-                                <li><a href="policy.html">Privacy Policy</a></li>
-                                <li><a href="sample.html">Sample Page</a></li>
+                    <div class="col-lg-3 col-md-12 col-sm-12 md-mb-30">
+                        <div class="footer__widget">
+                            <h3 class="widget__title">Contact Info</h3>
+                            <ul class="footer__info">
+                                <li>
+                                    <i class="baseicon-call"></i>
+                                    <div class="phone">
+                                        <a href="tel:+1-2025550918">+1-(202)-555-0918</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="baseicon-email"></i>
+                                    <div class="email">
+                                        <a href="mailto:info@example.com">info@example.com</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="baseicon-location"></i>
+                                    <p>7253 Alva Flats, Suite 272, 36401, New Isai, Michigan, USA</p>
+                                </li>
+                                <li>
+                                    <i class="baseicon-clock"></i>
+                                    <p>
+                                        Opening Hours: 10:00 - 19:00
+                                    </p>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                        <div class="contact-widget footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Contacts</h3>
+                    <div class="col-lg-3 col-md-12 col-sm-12">
+                        <div class="footer__widget">
+                            <h3 class="widget__title">Newsletter</h3>
+                            <div class="footer__newsletter">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, quibusdam!</p>
+                                <div class="news__box form-group">
+                                    <input type="email" name="EMAIL" placeholder="Your email address" required="">
+                                    <button class="submit">
+                                        <i class="flaticon-send"></i>
+                                    </button>
+                                </div>
                             </div>
-                            <div class="footer-text">
-                                <p><i class="bi bi-geo-alt-fill mr-15"></i> 101 West Town , PBO 12345, United States</p>
-                                <p><i class="bi bi-telephone-inbound-fill mr-15"></i> +1 1234 56 789</p>
-                                <p><i class="bi bi-envelope-fill mr-15"></i> contact@example.com</p>
-                            </div>
-                        </div>
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Newsletter</h3>
-                            </div>
-                            <div class="footer-text mb-25">
-                                <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
-                            </div>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email Address">
-                                    <button><i class="fa fa-telegram"></i></button>
-                                </form>
-                            </div>
+                            <ul class="footer__social md-mb-10">
+                                <li>
+                                    <a href="javascript:void(0)"><i class="neticon-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0) "><i class="neticon-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0) "><i class="neticon-pinterest"></i></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0) "><i class="neticon-instagram"></i></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="copyright-area">
+        <div class="footer__copyright-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-left text-lg-left">
-                        <div class="copyright-text">
-                            <p>Olivia<span>.</span> © 2022 - Designed by Zr Themes.</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block">
-                        <div class="footer-menu text-right">
-                            <ul>
-                                <li><a href="#">Terms of Service</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                            </ul>
+                    <div class="col-lg-12">
+                        <div class="copyright">
+                            <p>&copy; 2022 Prictech All Rights Reserved. Designed By <a href="javascript:void(0)">WebnetRetail</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- End Footer -->
-
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
-        <i class="bi bi-arrow-up-short"></i>
-    </a>
-
-
-    <!-- Vendor JS Files -->
-    <script src="~/assets/javascripts/jquery.min.js"></script>
-    <script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="~/assets/vendor/aos/aos.js"></script>
-    <script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="~/assets/javascripts/plugins.js"></script>
-    <script src="~/assets/javascripts/validator.min.js"></script>
-    <script src="~/assets/javascripts/contactform.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="~/assets/javascripts/main.js"></script>
-
+    <!-- Footer area end  -->
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/contactForm.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/jarallax.min.js"></script>
+    <script src="assets/js/easing.js"></script>
+    <script src="assets/js/parallax-scroll.js"></script>
+    <script src="assets/js/nice-select.min.js"></script>
+    <script src="assets/js/counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
-
 </html>

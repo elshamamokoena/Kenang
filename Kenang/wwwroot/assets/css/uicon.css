@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'uicon';
+  src:  url('../fonts/uicon.eot');
+  src:  url('../fonts/uicon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/uicon.ttf') format('truetype'),
+    url('../fonts/uicon.woff') format('woff'),
+    url('../fonts/uicon.svg#uicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="uicon-"], [class*=" uicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'uicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.uicon-magnifying-glass:before {
+  content: "\e900";
+}
+.uicon-consulting:before {
+  content: "\e901";
+}
+.uicon-new-product:before {
+  content: "\e902";
+}
+.uicon-chip:before {
+  content: "\e903";
+}
+.uicon-web-development:before {
+  content: "\e904";
+}
+.uicon-protection:before {
+  content: "\e905";
+}
+.uicon-analysis:before {
+  content: "\e906";
+}
+.uicon-right-quote:before {
+  content: "\e907";
+}
+.uicon-cloud:before {
+  content: "\e908";
+}
+.uicon-dashboard:before {
+  content: "\e909";
+}
+.uicon-group:before {
+  content: "\e90a";
+}
+.uicon-system:before {
+  content: "\e90b";
+}
+.uicon-cloud-data:before {
+  content: "\e90c";
+}
+.uicon-data-visualization:before {
+  content: "\e90d";
+}
+.uicon-web-design:before {
+  content: "\e90e";
+}
+.uicon-software-engineer:before {
+  content: "\e90f";
+}
+.uicon-smart-tv:before {
+  content: "\e910";
+}
+.uicon-link:before {
+  content: "\e911";
+}
+.uicon-technical-support:before {
+  content: "\e912";
+}
+.uicon-cctv:before {
+  content: "\e913";
+}
+.uicon-coding:before {
+  content: "\e914";
+}
+.uicon-apple:before {
+  content: "\e915";
+}
+.uicon-android:before {
+  content: "\e916";
+}
+.uicon-iot:before {
+  content: "\e917";
+}
+.uicon-smartband:before {
+  content: "\e918";
+}
+.uicon-tv:before {
+  content: "\e919";
+}
+.uicon-phone-ringing:before {
+  content: "\e91a";
+}
+.uicon-right-arrow:before {
+  content: "\e91b";
+}
+.uicon-up-arrow:before {
+  content: "\e91c";
+}
+.uicon-left-arrow:before {
+  content: "\e91d";
+}
+.uicon-down-arrow:before {
+  content: "\e91e";
+}

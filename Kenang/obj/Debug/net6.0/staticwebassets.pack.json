@@ -5,572 +5,344 @@
       "PackagePath": "staticwebassets\\Kenang.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
-      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.min.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\about.png",
-      "PackagePath": "staticwebassets\\assets\\images\\about.png"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\baseicon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\baseicon.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\blog\\blog-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-1.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\blog\\blog-2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-2.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\boxicons.min.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\blog\\blog-3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-3.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\default.css",
+      "PackagePath": "staticwebassets\\assets\\css\\default.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\clients\\client-1.png",
-      "PackagePath": "staticwebassets\\assets\\images\\clients\\client-1.png"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flaticon.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\clients\\client-2.png",
-      "PackagePath": "staticwebassets\\assets\\images\\clients\\client-2.png"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\icomoon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\icomoon.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\clients\\client-3.png",
-      "PackagePath": "staticwebassets\\assets\\images\\clients\\client-3.png"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\clients\\client-4.png",
-      "PackagePath": "staticwebassets\\assets\\images\\clients\\client-4.png"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nice-select.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\clients\\client-5.png",
-      "PackagePath": "staticwebassets\\assets\\images\\clients\\client-5.png"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\odometer.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\odometer.min.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\clients\\client-6.png",
-      "PackagePath": "staticwebassets\\assets\\images\\clients\\client-6.png"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\clients\\client-7.png",
-      "PackagePath": "staticwebassets\\assets\\images\\clients\\client-7.png"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\swiper-bundle.css",
+      "PackagePath": "staticwebassets\\assets\\css\\swiper-bundle.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\clients\\client-8.png",
-      "PackagePath": "staticwebassets\\assets\\images\\clients\\client-8.png"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\themify-icons.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\cta-bg.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\cta-bg.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\uicon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\uicon.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\hero-bg.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\hero-bg.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\webicon.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\webicon.min.css"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\hero-img.png",
-      "PackagePath": "staticwebassets\\assets\\images\\hero-img.png"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff2"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\team\\team-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\team\\team-1.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\fonts\\baseicon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\baseicon.woff2"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\team\\team-2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\team\\team-2.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.woff2"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\team\\team-3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\team\\team-3.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon.ttf"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\team\\team-4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\team\\team-4.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\fonts\\neticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\neticon.woff2"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\testimonials\\testimonial-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\testimonials\\testimonial-1.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify.woff"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\testimonials\\testimonial-2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\testimonials\\testimonial-2.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\fonts\\uicon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\uicon.ttf"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\testimonials\\testimonial-3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\testimonials\\testimonial-3.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\about-01-s.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-01-s.jpeg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\testimonials\\testimonial-4.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\testimonials\\testimonial-4.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\about-01-s.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-01-s.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\wds-hero-bg.jpeg",
-      "PackagePath": "staticwebassets\\assets\\images\\wds-hero-bg.jpeg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\about-01.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-01.jpeg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\images\\whyus.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\whyus.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\javascripts\\contactform.js",
-      "PackagePath": "staticwebassets\\assets\\javascripts\\contactform.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\cta-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\javascripts\\jquery.min.js",
-      "PackagePath": "staticwebassets\\assets\\javascripts\\jquery.min.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\blog\\blog-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-01.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\javascripts\\main.js",
-      "PackagePath": "staticwebassets\\assets\\javascripts\\main.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\blog\\blog-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-02.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\javascripts\\plugins.js",
-      "PackagePath": "staticwebassets\\assets\\javascripts\\plugins.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\blog\\blog-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-03.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\javascripts\\validator.min.js",
-      "PackagePath": "staticwebassets\\assets\\javascripts\\validator.min.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\blog\\blog-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-04.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\stylesheets\\font-awesome.min.css",
-      "PackagePath": "staticwebassets\\assets\\stylesheets\\font-awesome.min.css"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\blog\\blog-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-05.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\stylesheets\\styles.css",
-      "PackagePath": "staticwebassets\\assets\\stylesheets\\styles.css"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\blog\\blog-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-06.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\aos\\aos.css",
-      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.css"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\aos\\aos.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\logo\\logo-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\logo-white.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
-      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\logo.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
-      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\partner\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\01.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\partner\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\02.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\bootstrap\\css\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\dist\\css\\bootstrap.css"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\partner\\04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\04.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\partner\\05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\05.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
-      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\partner\\06.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\06.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\process-line.png",
+      "PackagePath": "staticwebassets\\assets\\img\\process-line.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\index.umd.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\index.umd.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\projects\\project-img01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\projects\\project-img01.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\alert.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\alert.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\projects\\project-img02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\projects\\project-img02.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\base-component.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\base-component.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\projects\\project-img03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\projects\\project-img03.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\button.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\button.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\projects\\project-img04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\projects\\project-img04.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\carousel.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\carousel.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\projects\\project-img05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\projects\\project-img05.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\collapse.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\collapse.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\projects\\project-img06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\projects\\project-img06.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\dom\\data.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\dom\\data.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\projects\\project-img07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\projects\\project-img07.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\dom\\event-handler.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\dom\\event-handler.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\projects\\project-img08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\projects\\project-img08.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\dom\\manipulator.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\dom\\manipulator.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\projects\\project-img09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\projects\\project-img09.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\dom\\selector-engine.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\dom\\selector-engine.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\services\\services-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\services-bg.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\dropdown.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\dropdown.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\slider\\slide-01.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slide-01.jpeg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\modal.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\modal.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\slider\\slide-02.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slide-02.jpeg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\offcanvas.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\offcanvas.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\slider\\slide-03.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slide-03.jpeg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\popover.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\popover.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\sm-01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sm-01.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\scrollspy.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\scrollspy.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_01.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\tab.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\tab.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_02.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\toast.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\toast.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_03.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\tooltip.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\tooltip.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_04.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\util\\backdrop.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\util\\backdrop.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_05.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\util\\component-functions.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\util\\component-functions.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_06.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\util\\config.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\util\\config.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\testimonial\\auth-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\auth-1.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\util\\focustrap.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\util\\focustrap.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\testimonial\\auth-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\auth-2.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\util\\index.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\util\\index.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\testimonial\\auth-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\auth-3.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\util\\sanitizer.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\util\\sanitizer.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\testimonial\\testimonial-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\testimonial-bg.png"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\util\\scrollbar.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\util\\scrollbar.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\why-choooe-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\why-choooe-img.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\util\\swipe.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\util\\swipe.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\js\\src\\util\\template-factory.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\js\\src\\util\\template-factory.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\contactForm.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contactForm.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_accordion.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_accordion.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\counterup.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_alert.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_alert.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\easing.js",
+      "PackagePath": "staticwebassets\\assets\\js\\easing.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_badge.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_badge.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\imagesloaded.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_breadcrumb.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_breadcrumb.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_button-group.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_button-group.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\jarallax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jarallax.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_buttons.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_buttons.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\jquery.appear.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.appear.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_card.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_card.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\magnific-popup.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_carousel.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_carousel.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_close.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_close.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\nice-select.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_containers.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_containers.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\odometer.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\odometer.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_dropdown.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_dropdown.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\parallax-scroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\parallax-scroll.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_grid.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_grid.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\parallax.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_images.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_images.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper-bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_list-group.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_list-group.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\vendor\\jquery-3.6.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-3.6.1.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_modal.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_modal.scss"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\vendor\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_nav.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_nav.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_navbar.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_navbar.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_offcanvas.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_offcanvas.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_pagination.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_pagination.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_placeholders.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_placeholders.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_popover.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_popover.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_progress.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_progress.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_reboot.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_reboot.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_root.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_root.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_spinners.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_spinners.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_tables.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_tables.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_toasts.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_toasts.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_tooltip.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_tooltip.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_transitions.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_transitions.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\_type.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\_type.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\forms\\_floating-labels.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\forms\\_floating-labels.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\forms\\_form-check.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\forms\\_form-check.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\forms\\_form-control.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\forms\\_form-control.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\forms\\_form-range.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\forms\\_form-range.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\forms\\_form-select.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\forms\\_form-select.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\forms\\_form-text.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\forms\\_form-text.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\forms\\_input-group.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\forms\\_input-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\forms\\_labels.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\forms\\_labels.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\helpers\\_color-bg.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\helpers\\_color-bg.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\helpers\\_colored-links.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\helpers\\_colored-links.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\helpers\\_position.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\helpers\\_position.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\helpers\\_ratio.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\helpers\\_ratio.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\helpers\\_stacks.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\helpers\\_stacks.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\helpers\\_stretched-link.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\helpers\\_stretched-link.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\helpers\\_text-truncation.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\helpers\\_text-truncation.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\helpers\\_visually-hidden.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\helpers\\_visually-hidden.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\helpers\\_vr.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\helpers\\_vr.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_alert.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_alert.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_backdrop.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_backdrop.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_banner.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_banner.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_border-radius.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_border-radius.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_breakpoints.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_breakpoints.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_buttons.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_buttons.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_caret.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_caret.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_clearfix.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_clearfix.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_container.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_container.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_forms.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_forms.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_gradients.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_gradients.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_grid.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_grid.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_image.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_image.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_list-group.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_list-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_lists.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_lists.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_pagination.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_pagination.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_reset-text.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_reset-text.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_table-variants.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_table-variants.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_text-truncate.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_text-truncate.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_transition.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_transition.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_utilities.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_utilities.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\mixins\\_visually-hidden.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\mixins\\_visually-hidden.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\utilities\\_api.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\utilities\\_api.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\scss\\vendor\\_rfs.scss",
-      "PackagePath": "staticwebassets\\assets\\vendor\\scss\\vendor\\_rfs.scss"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
-      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.css"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
-      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Kenang.Microsoft.AspNetCore.StaticWebAssets.props",

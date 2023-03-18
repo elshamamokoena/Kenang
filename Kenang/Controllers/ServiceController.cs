@@ -8,9 +8,6 @@ namespace Kenang.Controllers
         {
             return View();
         }
-        public IActionResult WebDevelopment()
-        {
-            return View();
-        }
+
     }
 }
