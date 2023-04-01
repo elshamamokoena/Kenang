@@ -1,10 +1,7 @@
 @charset "UTF-8";
 /*===============================================================
 
-    Theme Name: Prictech - IT Solution & Technology HTML Template
-    Author: Webcodemania
-    Description: Prictech - IT Solution & Technology HTML Template
-    Version: 1.0
+   * Copyright 2019-2023 Kenang Integrated Solutions
 
 =================================================================*/
 
@@ -2026,10 +2023,11 @@ ul.social-link li {
   float: right;
 }
 
-.site-navigation .main-menu ul>li.dropdwn.subMenu>a:after {
-  float: right;
-  margin-top: 3.5px;
+.site-navigation .main-menu ul > li.dropdwn.subMenu > a:after{
+    float: right;
+    margin-top: 3.5px;
 }
+
 
 .site-navigation .main-menu ul li {
   display: inline-block;
@@ -2054,7 +2052,7 @@ ul.social-link li {
   position: absolute;
   left: 0;
   top: 120%;
-  width: 200px;
+  width: 230px;
   background-color: var(--pureWhite);
   opacity: 0;
   visibility: hidden;
@@ -2089,6 +2087,7 @@ ul.social-link li {
   margin: 0;
   border-bottom: 1px solid #ececec;
   color: #553a1b;
+  font-size:13px;
 }
 
 .site-navigation .main-menu ul li .sub-menu li a:hover {
@@ -7991,7 +7990,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  border: 2px solid transparent;
+  border: 0px solid transparent;
   border-radius: 15px;
   overflow: hidden;
   position: relative;
@@ -8119,9 +8118,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .pricing__wrap .pricing__box .pricing__body {
-  padding-top: 35px;
+  padding-top: 15px;
   text-align: center;
-  padding-inline: 30px;
+  padding-inline: 10px;
 }
 
 .pricing__box .pricing__body ul {
@@ -9260,3 +9259,117 @@ only screen and (min-width: 576px) and (max-width: 767px),
     transform: translateX(-50px);
   }
 }
+
+/*Coming Soon*/
+.main-wraper.demo-4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 100%;
+    overflow: hidden;
+}
+
+.demo4-comming-soon-full {
+    width: 100%;
+    overflow: hidden;
+}
+
+.demo4-coming-soon-text {
+    padding: 0px 90px;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    position: relative;
+    z-index: 1;
+}
+
+    .demo4-coming-soon-text::after {
+        content: "";
+        clear: both;
+        display: block;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: #271400b3;
+        clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    }
+
+.main-wraper.demo-4 .logo {
+    margin-bottom: 50px;
+}
+
+.demo4-coming-soon-text h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.demo4-coming-soon-text p {
+    margin-bottom: 50px;
+    color: #e3e0e0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.demo4-form input[type="email"] {
+    width: 91%;
+    padding: 14px 12px;
+    font-size: 16px;
+    border: none;
+    float: left;
+}
+
+.demo4-form input[type="submit"] {
+    overflow: hidden;
+    margin-left: -131.5px;
+    padding: 14.8px 18.2px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    background: #277499;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+    .demo4-form input[type="submit"]:hover {
+        background: #2fa5dd;
+    }
+
+.demo4-social {
+    margin-top: 35px;
+}
+
+    .demo4-social ul li {
+        display: inline-block;
+        margin: 3px 3px;
+    }
+
+        .demo4-social ul li a {
+            display: inline-block;
+        }
+
+            .demo4-social ul li a i {
+                width: 55px;
+                height: 55px;
+                background: #b15102;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                color: #fff;
+                font-size: 16px;
+                -webkit-transition: all .3s ease-in-out;
+                transition: all .3s ease-in-out;
+            }
+
+                .demo4-social ul li a i:hover {
+                    background: #7c3c00;
+                }

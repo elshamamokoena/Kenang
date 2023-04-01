@@ -6,25 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
-    <meta name="description" content="Kenang - Software Development Studios">
+    <meta name="description" content="Kenang Integrated Solutions">
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.ico">
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/icomoon.css">
-    <link rel="stylesheet" href="assets/css/boxicons.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/baseicon.css">
-    <link rel="stylesheet" href="assets/css/uicon.css">
-    <link rel="stylesheet" href="assets/css/webicon.min.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/odometer.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/animate.min.css">
+    <link rel="stylesheet" href="~/assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="~/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/assets/css/nice-select.css">
+    <link rel="stylesheet" href="~/assets/css/flaticon.css">
+    <link rel="stylesheet" href="~/assets/css/icomoon.css">
+    <link rel="stylesheet" href="~/assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="~/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="~/assets/css/baseicon.css">
+    <link rel="stylesheet" href="~/assets/css/uicon.css">
+    <link rel="stylesheet" href="~/assets/css/webicon.min.css">
+    <link rel="stylesheet" href="~/assets/css/default.css">
+    <link rel="stylesheet" href="~/assets/css/odometer.min.css">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    @RenderSection("styles", required:false)
 </head>
 <body>
     <!-- Preloader start -->
@@ -44,28 +45,27 @@
                     <div class="col-lg-6 d-xl-block d-none">
                         <div class="left">
                             <div class="mail">
-                                <a href="mailto:info@example.com"><i class="baseicon-email"></i>info@example.com</a>
+                                <a href="mailto:contact@kenang.co.za"><i class="baseicon-email"></i>contact@kenang.co.za</a>
                             </div>
                             <div class="opening__time">
-                                <p><i class="baseicon-clock"></i>Opening Hours: 10:00 - 19:00</p>
+                                <p><i class="baseicon-clock"></i>Opening Hours: 7:00 - 21:00</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 d-xl-block d-none">
                         <div class="right">
-                            <ul class="top__nav">
-                                <li><a asp-action="Index" asp-controller="About">About</a></li>
-                                @*<li hidden><a href="javascript:void(0)">Blog</a></li>*@
+@*                            <ul class="top__nav">
+                                <li><a href="#ourstory">About</a></li>
                                 <li><a asp-action="Faq" asp-controller="Home">Faq</a></li>
-                            </ul>
+                            </ul>*@
                             <ul class="top__social">
-                                <li class="title">Follow Us:</li>
+                                <li class="title">Let's Get Social</li>
                                 <li><a href="javascript:void(0)"><i class="neticon-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i class="neticon-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i class="neticon-instagram"></i></a></li>
                                 <li><a class="mr--0" href="javascript:void(0)"><i class="neticon-linkedin"></i></a></li>
                             </ul>
-                        </div>
+                        </div>  
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
             <div class="container-fluid">
                 <div class="main__menu">
                     <div class="site-branding">
-                        <a href="index.html" class="brand-logo"><img src="assets/img/logo/logo.png" alt="Site Logo"></a>
+                        <a asp-action="Index" asp-controller="Home" class="brand-logo"><img src="~/assets/img/logo/logo.png" alt="Site Logo"></a>
                     </div>
                     <div class="nav-menu">
                         <!-- Navbar Close -->
@@ -89,86 +89,48 @@
                                 </div>
                             </form>
                         </div>
+
                         <!-- Main Menu -->
-                        <nav class="main-menu">
+@*                        <nav class="main-menu">
                             <ul>
                                 <li><a asp-action="Index" asp-controller="Home">Home</a></li>
-                                <li><a asp-action="Index" asp-controller="About">Our Story</a></li>
-                                @*<li><a asp-action="Index" asp-controller="Service">Services</a></li>*@
-                                <li class="dropdwn">
-                                <a href="javascript:void(0)">Services</a>
-                                <ul class="sub-menu">
-                                <li><a href="team.html">Ecommerce Development</a></li>
-                                <li><a href="team-details.html">UI/UX Design</a></li>
-                                <li class="dropdwn subMenu">
-                                <a href="javascript:void(0)">App Development</a>
-                                <ul class="sub-menu">
-                                <li><a href="javascript:void(0)">Web App Development</a></li>
-                                <li><a href="javascript:void(0)">Mobile App Development</a></li>
-                                </ul>
+                                <li><a href="#ourstory"> Our Story</a></li>
+                                <li><a asp-action="Web" asp-controller="Service">Web Development</a></li>
+                                <li><a asp-action="Index" asp-controller="Service">Our Capabilities</a></li>
+
+                                <li  class="dropdwn">
+                                    <a href="javascript:void(0)">Services</a>
+                                      <ul  class="sub-menu">
+                                        <li><a asp-action="Web" asp-controller="Service">Web Development</a></li>
+                                        <li><a asp-action="Mobile" asp-controller="Service">Mobile App Development</a></li>
+                                        <li><a asp-action="Ecommerce" asp-controller="Service">Ecommerce Development</a></li>
+                                        <li><a asp-action="PaymentsIntegration" asp-controller="Service">Payments & Merchant Integration</a></li>
+                                        <li><a asp-action="SupportMaintenance" asp-controller="Service">Support & Maintenance</a></li>
+                                    <li>
+                                                <a asp-action="Index" asp-controller="Service">
+                                                    <span>All Services</span>
+                                                    <i class="icon-arrow-right"></i>
+                                                </a>
+                                    </li>
+
+                                    </ul>
                                 </li>
-                                <li><a href="pricing.html">Custom API Integrations</a></li>
-                                <li><a href="faq.html">Support & Maintenance</a></li>
-                                <li><a href="faq.html">Support & Maintenance</a></li>
+                                <li><a asp-action="UnderConstruction" asp-controller="Home">Case Studies</a></li>
 
-                                </ul>
-                                </li>
-                                <li><a asp-action="Index" asp-controller="Project">Our Work</a></li>
-                                <li><a asp-action="Index" asp-controller="Contact">Contact</a></li>
-
-
-
-                               @* <li class="dropdwn">
-                                    <a asp-action="Index" asp-controller="Service">Services</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                    </ul>
-                                </li>*@
-                      @*          <li class="dropdwn">
-                                    <a href="javascript:void(0)">Projects</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="projects.html">Projects</a></li>
-                                        <li><a href="project-details.html">Project Details</a></li>
-                                    </ul>
-                                </li>*@
-                     @*           <li class="dropdwn">
-                                    <a href="javascript:void(0)">Pages</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="team-details.html">Team Details</a></li>
-                                        <li class="dropdwn subMenu">
-                                            <a href="javascript:void(0)">Category</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="javascript:void(0)">Subcat 01</a></li>
-                                                <li><a href="javascript:void(0)">Subcat 02</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="faq.html">FAQ</a></li>
-                                    </ul>
-                                </li>*@
-                      @*          <li class="dropdwn">
-                                    <a href="javascript:void(0)">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog Listing</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>*@
-                                @*<li><a href="contact.html">Contact</a></li>*@
                             </ul>
                         </nav>
+*@
                     </div>
                     <div class="header-right-nav">
                         <ul>
                             <li>
-                                <a href="tel:+12025550918" class="header__phone">
+                                <a href="tel:+27679398796" class="header__phone">
                                     <span class="header__phone__icon">
                                         <i class="uicon-phone-ringing"></i>
                                     </span>
                                     <span class="header__phone__text">
-                                        <strong>+1-(202)-555-0918</strong>
-                                        Call to Our Experts
+                                        <strong>067-939-8796</strong>
+                                        Call Us
                                     </span>
                                 </a>
                             </li>
@@ -206,7 +168,7 @@
                 <div class="inner__content">
                     <div class="sidebar-info">
                         <a href="index.html" class="logo"><img class="img-fluid" src="assets/img/logo/logo.png" alt="Logo"></a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur eum veritatis autem maiores, blanditiis reiciendis beatae. Corporis, fugiat debitis!</p>
+                        <p>A Johannesburg-based agency helping businesses and entrepreneurs compete in the digital commerce space with innovative integrated software solutions.</p>
                     </div>
                     <div class="sidebar-contact__info mt-25 mb-25">
                         <h4>Contact Info</h4>
@@ -214,14 +176,14 @@
                             <i class="baseicon-phone"></i>
                             <div class="info__text">
                                 <h4>Call Us</h4>
-                                <a href="tel:+1202-555-0918">+1202-555-0918</a>
+                                <a href="tel:+27679398796">067-939-8796</a>
                             </div>
                         </div>
                         <div class="contact-item">
                             <i class="baseicon-email"></i>
                             <div class="info__text">
                                 <h4>Email Us</h4>
-                                <a href="mailto:info@example.com">info@example.com</a>
+                                <a href="mailto:contact@kenang.co.za">contact@kenang.co.za</a>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -229,7 +191,7 @@
                             <div class="info__text">
                                 <h4>Office Address</h4>
                                 <div class="info__text">
-                                    <p>7253 Alva Flats, Michigan, USA</p>
+                                    <p>Temporarily Remote</p>
                                 </div>
                             </div>
                         </div>
@@ -238,7 +200,7 @@
                             <div class="info__text">
                                 <h4>Opening Hours</h4>
                                 <div class="info__text">
-                                    <p>10:00 - 19:00</p>
+                                    <p>07:00 - 21:00</p>
                                 </div>
                             </div>
                         </div>
@@ -272,10 +234,10 @@
                     <div class="col-lg-3 col-md-12 col-sm-12">
                         <div class="footer__widget">
                             <div class="footer-logo mb-30">
-                                <a href="index.html"><img src="assets/img/logo/logo-white.png" alt="logo"></a>
+                                <a asp-action=""><img src="assets/img/logo/logo-white.png" alt="logo"></a>
                             </div>
                             <div class="textwidget">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi assumenda consequatur eligendi? Illum, reiciendis accusantium?</p>
+                                <p>A Johannesburg-based digital product agency that partners with businesses to transform their ecommerce and retail technologies.</p>
                             </div>
                         </div>
                     </div>
@@ -283,11 +245,11 @@
                         <div class="footer__widget">
                             <h3 class="widget__title">IT Services</h3>
                             <ul class="footer__link">
-                                <li><a href="javascript:void(0)">Software Development</a></li>
                                 <li><a href="javascript:void(0)">Web Development</a></li>
-                                <li><a href="javascript:void(0)">Analytic Solutions</a></li>
-                                <li><a href="javascript:void(0)">Cloud and DevOps</a></li>
-                                <li><a href="javascript:void(0)">Product Design</a></li>
+                                <li><a href="javascript:void(0)">Mobile App Development</a></li>
+                                <li><a href="javascript:void(0)">Ecommerce Development</a></li>
+                                <li><a href="javascript:void(0)">Cloud Development</a></li>
+                                <li><a href="javascript:void(0)">Product Strategy</a></li>
                             </ul>
                         </div>
                     </div>
@@ -298,23 +260,23 @@
                                 <li>
                                     <i class="baseicon-call"></i>
                                     <div class="phone">
-                                        <a href="tel:+1-2025550918">+1-(202)-555-0918</a>
+                                        <a href="tel:+27679398796">067-939-8796</a>
                                     </div>
                                 </li>
                                 <li>
                                     <i class="baseicon-email"></i>
                                     <div class="email">
-                                        <a href="mailto:info@example.com">info@example.com</a>
+                                        <a href="mailto:contact@kenang.co.za">contact@kenang.co.za</a>
                                     </div>
                                 </li>
                                 <li>
                                     <i class="baseicon-location"></i>
-                                    <p>7253 Alva Flats, Suite 272, 36401, New Isai, Michigan, USA</p>
+                                    <p>Temporarily Remote</p>
                                 </li>
                                 <li>
                                     <i class="baseicon-clock"></i>
                                     <p>
-                                        Opening Hours: 10:00 - 19:00
+                                        Opening Hours: 07:00 - 21:00
                                     </p>
                                 </li>
                             </ul>
@@ -322,16 +284,6 @@
                     </div>
                     <div class="col-lg-3 col-md-12 col-sm-12">
                         <div class="footer__widget">
-                            <h3 class="widget__title">Newsletter</h3>
-                            <div class="footer__newsletter">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, quibusdam!</p>
-                                <div class="news__box form-group">
-                                    <input type="email" name="EMAIL" placeholder="Your email address" required="">
-                                    <button class="submit">
-                                        <i class="flaticon-send"></i>
-                                    </button>
-                                </div>
-                            </div>
                             <ul class="footer__social md-mb-10">
                                 <li>
                                     <a href="javascript:void(0)"><i class="neticon-facebook"></i></a>
@@ -356,7 +308,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright">
-                            <p>&copy; 2022 Prictech All Rights Reserved. Designed By <a href="javascript:void(0)">WebnetRetail</a></p>
+                            <p>&copy; 2023 Kenang All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
@@ -365,23 +317,25 @@
     </footer>
     <!-- Footer area end  -->
     <!-- JS here -->
-    <script src="assets/js/vendor/jquery-3.6.1.min.js"></script>
-    <script src="assets/js/vendor/waypoints.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.appear.min.js"></script>
-    <script src="assets/js/contactForm.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="assets/js/parallax.min.js"></script>
-    <script src="assets/js/jarallax.min.js"></script>
-    <script src="assets/js/easing.js"></script>
-    <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/nice-select.min.js"></script>
-    <script src="assets/js/counterup.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="~/assets/js/vendor/jquery-3.6.1.min.js"></script>
+    <script src="~/assets/js/vendor/waypoints.min.js"></script>
+    <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/jquery.appear.min.js"></script>
+    <script src="~/assets/js/contactForm.js"></script>
+    <script src="~/assets/js/swiper-bundle.min.js"></script>
+    <script src="~/assets/js/odometer.min.js"></script>
+    <script src="~/assets/js/magnific-popup.min.js"></script>
+    <script src="~/assets/js/parallax.min.js"></script>
+    <script src="~/assets/js/jarallax.min.js"></script>
+    <script src="~/assets/js/easing.js"></script>
+    <script src="~/assets/js/parallax-scroll.js"></script>
+    <script src="~/assets/js/nice-select.min.js"></script>
+    <script src="~/assets/js/counterup.min.js"></script>
+    <script src="~/assets/js/wow.min.js"></script>
+    <script src="~/assets/js/isotope.pkgd.min.js"></script>
+    <script src="~/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="~/assets/js/main.js"></script>
+    @RenderSection("scripts", required:false)
+
 </body>
 </html>

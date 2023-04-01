@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\assets\\css\\flaticon.css"
     },
     {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\fontawesome.all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontawesome.all.min.css"
+    },
+    {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\icomoon.css",
       "PackagePath": "staticwebassets\\assets\\css\\icomoon.css"
     },
@@ -43,6 +47,14 @@
     {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\odometer.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\odometer.min.css"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins.css"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
     },
     {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\css\\style.css",
@@ -77,6 +89,10 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.woff2"
     },
     {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\fonts\\icomoon.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\icomoon.ttf"
     },
@@ -93,24 +109,80 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\uicon.ttf"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\about-01-s.jpeg",
-      "PackagePath": "staticwebassets\\assets\\img\\about-01-s.jpeg"
-    },
-    {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\about-01-s.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\about-01-s.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\about-01.jpeg",
-      "PackagePath": "staticwebassets\\assets\\img\\about-01.jpeg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\about-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\about-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\about-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\about-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-04.jpg"
     },
     {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\assets\\img\\ajax-loader.gif"
     },
     {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\api-title-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\api-title-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\cloud-title-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\cloud-title-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\cms-title-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\cms-title-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\contact-title-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\contact-title-bg.jpg"
+    },
+    {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\cta-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bg\\cta-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\cta-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\cta-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\ecommerce-title-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\ecommerce-title-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\mobile-title-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\mobile-title-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\payment-title-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\payment-title-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\strategy-title-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\strategy-title-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\support-title-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\support-title-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\bg\\web-title-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bg\\web-title-bg.png"
     },
     {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\blog\\blog-01.jpg",
@@ -155,14 +227,6 @@
     {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\partner\\02.png",
       "PackagePath": "staticwebassets\\assets\\img\\partner\\02.png"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\partner\\04.png",
-      "PackagePath": "staticwebassets\\assets\\img\\partner\\04.png"
-    },
-    {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\partner\\05.png",
-      "PackagePath": "staticwebassets\\assets\\img\\partner\\05.png"
     },
     {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\partner\\06.png",
@@ -229,28 +293,36 @@
       "PackagePath": "staticwebassets\\assets\\img\\sm-01.png"
     },
     {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\Avatars.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\Avatars.jpeg"
+    },
+    {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_01.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team_01.jpg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_02.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\team\\team_02.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_02.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_02.jpeg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_03.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\team\\team_03.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_03.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_03.jpeg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_04.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\team\\team_04.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_04.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_04.jpeg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_05.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\team\\team_05.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_05.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_05.jpeg"
     },
     {
-      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_06.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\team\\team_06.jpg"
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_06.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_06.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\team\\team_07.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team_07.jpeg"
     },
     {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\img\\testimonial\\auth-1.png",
@@ -335,6 +407,14 @@
     {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\vendor\\jquery-3.6.1.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-3.6.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\vendor\\modernizr.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\vendor\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\popper.min.js"
     },
     {
       "Id": "C:\\Users\\elsha\\source\\repos\\Kenang\\Kenang\\wwwroot\\assets\\js\\vendor\\waypoints.min.js",
